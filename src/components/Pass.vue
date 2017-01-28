@@ -2,6 +2,9 @@
   div.card
     header.card-header
       p.card-header-title {{pass.satellite.name}}
+    .card-image
+      figure.image
+        img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/NOAA-M-01.jpg/260px-NOAA-M-01.jpg" alt="Image")
     .card-content
       .content
         small.
@@ -30,6 +33,3 @@
     }
   }
 </script>
-
-<style scoped>
-</style>
